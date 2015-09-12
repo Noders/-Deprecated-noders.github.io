@@ -1,5 +1,4 @@
-# Noders.com
-Web de Noders.com
+# noderscast
 
-
+Sitio de Noderscast, hecho con ReactJS y Webpack
 
