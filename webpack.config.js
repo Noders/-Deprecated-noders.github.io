@@ -2,7 +2,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ProvidePlugin = require('webpack/lib/ProvidePlugin');
 
 module.exports = {
-    entry: "./js/entry.js",
+    entry: [
+        "bootstrap-loader",
+        "./js/entry.js"
+    ],
     output: {
         path: __dirname,
         filename: "bundle.js"
@@ -14,6 +17,9 @@ module.exports = {
             }, {
                 test: /\.scss$/,
                 loaders: ['style', 'css', 'postcss', 'sass']
+            }, {
+                test: /\.html$/,
+                loader: "raw-loader"
             }, {
                 test: /\.(woff2?|ttf|eot|svg)$/,
                 loader: 'url?limit=10000'
@@ -33,6 +39,7 @@ module.exports = {
 
         ]
     },
+    devtool: 'eval',
     plugins: [
         new ProvidePlugin({
             jQuery: 'jquery',
@@ -42,7 +49,8 @@ module.exports = {
             "window.Tether": "tether"
         }),
         new HtmlWebpackPlugin({
-            template: './templates/home.html'
+            template: './templates/home.html',
+            inject: 'body'
         }),
     ]
 };
