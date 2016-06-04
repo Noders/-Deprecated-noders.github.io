@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 #map {
-  height: 60vmin;
+  height: 40vmin;
 }
 .socials {
   padding-top: 2em;
@@ -27,4 +27,10 @@
 }
 .map-cta-wrapper{
   margin-top: 2em;
+}
+
+
+#footer {
+  padding-top: 5em;
+  padding-bottom: 4em;
 }

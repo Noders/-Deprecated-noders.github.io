@@ -16,7 +16,7 @@ class GoogleMapAPI {
 
     let GoogleMap = new GoogleMapAPI(document.getElementById('map'), {
       center: new google.maps.LatLng(-10.9, -70.4),
-      zoom: 3
+      zoom: 2
     });
     var map = GoogleMap.map;
     map.mapTypes.set('map_style', styledMap);

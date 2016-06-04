@@ -1,0 +1,45 @@
+
+.gallery {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .photo {
+  padding: 0.4em;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .gallery .photo {
+    width: 33.33vmax;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .gallery .photo {
+    width: 28vmax;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .gallery .photo {
+    width: 25vmax;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .gallery .photo {
+    width: 25vmax;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .gallery .photo {
+    width: 20vmax;
+  }
+}

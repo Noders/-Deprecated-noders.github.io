@@ -1,8 +1,6 @@
 /*
-
 Landing Zero theme - A free landing page theme from BootstrapZero
 http://www.bootstrapzero.com
-
 */
 
 @import url(https://fonts.googleapis.com/css?family=Questrial);
@@ -175,6 +173,7 @@ footer {
     }
 
     .navbar-header > .navbar-brand {
+        color: rgb(255,255,255);
         color: rgba(255,255,255,0.7);
         padding: 19px;
     }
@@ -186,6 +185,7 @@ footer {
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
+        color: rgb(255,255,255);
         color: rgba(255,255,255,0.8);
         padding: 20px;
         letter-spacing: 1.1px;
@@ -232,8 +232,8 @@ header {
     text-align: center;
     color: #fff;
     width: 100%;
-    background-color: #c9c9c9;
-    background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');
+    background-color: 0 0;
+    /*background-image: url('https://splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-Slate-Stone-Xeromatic-1440x953.jpg');*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
