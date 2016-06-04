@@ -1,0 +1,30 @@
+.inner .logo {
+    width: 55vmax;
+    margin: 0 auto;
+}
+#map {
+  height: 60vmin;
+}
+.socials {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.socials li a i{
+  font-size: 3em;
+}
+
+#topNav {
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,0.6);
+  border-bottom-color: rgb(255,255,255);
+  border-bottom-color: rgba(255,255,255,0.5);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.map-wrapper{
+  margin-bottom: 2em;
+}
+.map-cta-wrapper{
+  margin-top: 2em;
+}
